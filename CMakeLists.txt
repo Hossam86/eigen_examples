@@ -5,6 +5,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake )
 
 # external dependencies
 include(CPM)
+set(BUILD_TESTING OFF)
 CPMAddPackage(
   NAME Eigen
   GIT_REPOSITORY https://gitlab.com/libeigen/eigen
